@@ -1,0 +1,50 @@
+/* Color section */
+body {
+    background-color: rgb(240, 248, 255);
+    color: #333;
+  }
+  
+  h1 {
+    color: orange;
+  }
+  
+  h2 {
+    color: hsl(200, 50%, 50%);
+  }
+  
+  h3 {
+    color: rgba(0, 100, 255, 0.7);
+  }
+  
+  nav ul li a {
+    color: color(display-p3 1 0.5 0.1);
+  }
+  
+  :root {
+    --main-padding: 2rem;
+  }
+  main {
+    padding: var(--main-padding, 20px);
+  }
+  
+  header {
+    background-color: lightgray;
+  }
+  
+  p {
+    margin-left: 2em;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  img {
+    border: solid 2px black;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    padding: 10pt;
+    background-color: #f9f9f9;
+  }
+  
