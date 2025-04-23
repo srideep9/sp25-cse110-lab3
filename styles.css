@@ -159,10 +159,12 @@ span.inline-text { background-color: lightyellow; }
 section:has(details[open]) { border-color: red; }
 
 .flex-container {
-  > div :hover {
+  > div {
+    &:hover {
       transform: scale(1.05);
     }
   }
+}
 
 @media (max-width: 600px) {
   body {
